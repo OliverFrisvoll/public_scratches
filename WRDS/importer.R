@@ -5,11 +5,6 @@ library(RPostgres)
 # rm(list = ls())
 
 # Setting working directory
-rstudioapi::getSourceEditorContext()$path |>
-  dirname() |>
-  setwd()
-
-source("account.R")
 
 ## NB! Add password and username to the "account.R" file to be able to access WRDS
 
